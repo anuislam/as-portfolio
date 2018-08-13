@@ -1,0 +1,24 @@
+{
+    "name": "anuislam/portfolio",
+    "description": "This is my own portfolio website",
+    "type": "project",
+    "license": "GPLv2",
+    "license_URI": "http://www.gnu.org/licenses/gpl-2.0.html",
+    "author": {
+        "name" : "Anuislam Shohag",
+        "email" : "anuislams@gmail.com"
+    },
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Inc\\": "./inc",
+            "Shortcodes\\": "./shortcodes"
+        },
+        "files": [
+            "helpers/helpers.php",
+            "helpers/AsRecentPostWithPic.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
